@@ -1,0 +1,12 @@
+# OS / editor
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.lnk
+
+# Secrets
+.env
+.env.*
+
+# Local preview (optional)
+.serve/
