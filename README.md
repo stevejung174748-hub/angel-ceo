@@ -1,20 +1,20 @@
-# Nightlife guide sites (static)
+# angel-ceo (static site)
 
-Two static HTML sites in one repo for Cloudflare Pages:
+밤문화 큐레이션 허브 **Angel CEO** — 정적 HTML 사이트입니다.
 
-| Folder | Site |
-|--------|------|
-| `jungpm-nightlife-guide/` | JungPM / BLINDUP |
-| `angelie-night/` | Angelie Night |
+## Cloudflare Pages
 
-## Cloudflare Pages (per site)
+1. GitHub 레포 이름 예: `angel-ceo`
+2. **Framework preset:** None
+3. **Build command:** *(비움)*
+4. **Build output directory:** `/` (레포 루트)
+5. 도메인 연결 후 `sitemap.xml`, `robots.txt`, 각 페이지 `canonical`의 `YOUR-ANGEL-CEO-DOMAIN`을 실제 도메인으로 교체하세요.
 
-1. **Workers & Pages** → Create → Connect to Git → select this repo.
-2. **Framework preset:** None  
-3. **Build command:** *(leave empty)*  
-4. **Build output directory:**  
-   - JungPM: `jungpm-nightlife-guide`  
-   - Angelie: `angelie-night`  
-5. Create **two** Pages projects if you host both domains.
+## 로컬 미리보기
 
-If the repo list is empty, on GitHub go to **Settings → Applications → Cloudflare Pages** and grant access to this repository (or “All repositories”).
+```powershell
+cd "F:\workspace\seo page templet\jungpm-nightlife-guide"
+python -m http.server 5500
+```
+
+http://127.0.0.1:5500/

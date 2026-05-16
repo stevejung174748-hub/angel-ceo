@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://joungsy.ivyro.net/sitemap.xml
