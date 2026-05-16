@@ -85,11 +85,20 @@ JungPM 수정 후에는 FTP로만 업로드. `git add .` 할 때 JungPM 폴더�
 
 ---
 
+### 폴더 정리 (세션 말)
+- `seo page templet\` 아래 **형제 폴더**로 분리:
+  - `angel-ceo\` — Angel 사이트 + Git + Cloudflare
+  - `jungpm-nightlife-guide\` — JungPM FTP 전용 (README만, Git 없음)
+- 로컬 JungPM 소스 삭제 (서버/FTP가 기준)
+- `.gitignore`에 형제 JungPM 경로 제외
+
+---
+
 ## 다음에 할 일
 
 - [ ] GSC **페이지** 보고서로 색인 진행 확인 (며칠~2주)
 - [ ] 커스텀 도메인 연결 시: Cloudflare Custom domains + `sitemap`/`canonical` URL 일괄 변경 + GSC 새 속성
-- [ ] `YOUR-ANGEL-CEO-DOMAIN` → 실제 도메인으로 교체 (현재는 `angel-ceo.pages.dev` 사용 중)
+- [ ] JungPM 수정 시: `jungpm-nightlife-guide\`에 FTP 다운로드 후 편집 → FTP 업로드
 
 ---
 
@@ -105,4 +114,17 @@ git push
 
 ---
 
-*마지막 업데이트: 2026-05-17*
+---
+
+## 오늘 세션 마무리 (2026-05-17)
+
+| 항목 | 상태 |
+|------|------|
+| Angel CEO 배포 | https://angel-ceo.pages.dev |
+| GitHub | `stevejung174748-hub/angel-ceo` |
+| GSC 소유권 | 확인 완료 |
+| 사이트맵 제출 | `sitemap.xml` |
+| 폴더 구조 | `angel-ceo` / `jungpm-nightlife-guide` 분리 |
+| JungPM | FTP 전용, Git 미포함 |
+
+*마지막 업데이트: 2026-05-17 (세션 종료)*
