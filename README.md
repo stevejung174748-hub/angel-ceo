@@ -13,8 +13,12 @@
 ## 로컬 미리보기
 
 ```powershell
-cd "F:\workspace\seo page templet\jungpm-nightlife-guide"
 python -m http.server 5500
 ```
+
+## Git / 보안
+
+- 계정·이메일 정리: `GIT_ACCOUNTS.local.md` (로컬 전용, Git 제외)
+- 템플릿: `GIT_ACCOUNTS.example.md`
 
 http://127.0.0.1:5500/

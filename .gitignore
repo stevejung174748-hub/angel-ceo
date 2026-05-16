@@ -4,9 +4,26 @@ Desktop.ini
 .DS_Store
 *.lnk
 
-# Secrets
+# Secrets & credentials (never commit)
 .env
 .env.*
+*.pem
+*.key
+*.p12
+credentials.json
+secrets.json
+.npmrc
 
-# Local preview (optional)
+# Local-only docs (personal emails, paths, account names)
+GIT_ACCOUNTS.md
+GIT_ACCOUNTS.local.md
+*.local.md
+*.secret.md
+
+# SSH keys (if ever placed in project by mistake)
+id_rsa
+id_ed25519*
+!id_ed25519*.pub
+
+# Local preview
 .serve/
