@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://YOUR-ANGEL-CEO-DOMAIN/sitemap.xml
+Sitemap: https://angel-ceo.pages.dev/sitemap.xml
