@@ -8,7 +8,7 @@
 
 | 구분 | 경로 / URL |
 |------|------------|
-| **로컬 소스 (편집하는 폴더)** | `F:\workspace\seo page templet\jungpm-nightlife-guide` |
+| **로컬 소스 (편집하는 폴더)** | `F:\workspace\seo page templet\angel-ceo` |
 | **GitHub 레포** | https://github.com/stevejung174748-hub/angel-ceo |
 | **라이브 사이트** | https://angel-ceo.pages.dev |
 | **Cloudflare 프로젝트명** | `angel-ceo` |
@@ -16,7 +16,7 @@
 로컬 폴더 구조 (레포 루트 = 사이트 루트):
 
 ```
-jungpm-nightlife-guide/          ← Git 루트 & Angel CEO 사이트 전체
+angel-ceo/                       ← Git 루트 & Angel CEO 사이트 전체
 ├── index.html                   ← 홈
 ├── area/
 ├── jeju/room-salon/  jeju/nightlife/
@@ -37,7 +37,7 @@ jungpm-nightlife-guide/          ← Git 루트 & Angel CEO 사이트 전체
 
 | 구분 | 내용 |
 |------|------|
-| 로컬만 | `jungpm-nightlife-guide\jungpm-nightlife-guide\` |
+| 로컬만 | `..\jungpm-nightlife-guide\` (FTP용, Git 없음) |
 | 배포 | **FTP → 별도 서버** (예: joungsy.ivyro.net) |
 | GitHub `angel-ceo` | **올리지 않음** — `.gitignore`로 제외 |
 
@@ -96,7 +96,7 @@ JungPM 수정 후에는 FTP로만 업로드. `git add .` 할 때 JungPM 폴더�
 ## 자주 쓰는 명령
 
 ```powershell
-cd "F:\workspace\seo page templet\jungpm-nightlife-guide"
+cd "F:\workspace\seo page templet\angel-ceo"
 python -m http.server 5500
 git add .
 git commit -m "메시지"

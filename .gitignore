@@ -28,8 +28,8 @@ id_ed25519*
 # Local preview
 .serve/
 
-# JungPM — FTP로 별도 서버 운영, angel-ceo 레포에 포함 금지
+# Legacy / sibling project paths (must not enter this repo)
+../jungpm-nightlife-guide/
 jungpm-nightlife-guide/
-
-# Legacy empty folder
 angelie-night/
+_cleanup_jungpm_old/
