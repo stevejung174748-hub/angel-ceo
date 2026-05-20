@@ -1,0 +1,339 @@
+/* =========================================================
+   Angel CEO — Story / Experience post typography
+   Use inside: .story-content { ... your HTML ... }
+   Loaded alongside style.css on story pages only.
+   ========================================================= */
+
+.story-page main {
+  padding-bottom: 4rem;
+}
+
+.story-article {
+  margin-top: 0;
+}
+
+.story-header {
+  margin-bottom: 2rem;
+  padding-bottom: 1.75rem;
+  border-bottom: 1px solid var(--color-line);
+}
+
+.story-header .eyebrow {
+  margin-bottom: 0.75rem;
+}
+
+.story-header h1 {
+  font-family: var(--font-display);
+  font-size: clamp(1.75rem, 4vw, 2.35rem);
+  font-weight: 600;
+  line-height: 1.35;
+  margin: 0 0 1rem;
+  color: var(--color-text);
+  letter-spacing: -0.02em;
+}
+
+.story-header .story-lead {
+  font-size: 1.1rem;
+  line-height: 1.75;
+  color: var(--color-muted);
+  margin: 0;
+}
+
+.story-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 0.75rem;
+  margin-top: 1.25rem;
+}
+
+.story-meta__item,
+.story-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.35rem 0.75rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--color-accent-soft);
+  background: rgba(232, 164, 184, 0.12);
+  border: 1px solid var(--color-line-gold);
+  border-radius: 999px;
+}
+
+.story-tag--region {
+  color: var(--color-lilac-soft);
+  background: rgba(196, 168, 232, 0.12);
+  border-color: var(--color-line-lilac);
+}
+
+/* —— User HTML zone —— */
+.story-content {
+  font-size: 1.05rem;
+  line-height: 1.85;
+  color: var(--color-muted);
+}
+
+.story-content > *:first-child {
+  margin-top: 0;
+}
+
+.story-content > *:last-child {
+  margin-bottom: 0;
+}
+
+.story-content h2 {
+  font-family: var(--font-display);
+  font-size: 1.45rem;
+  font-weight: 600;
+  color: var(--color-text);
+  margin: 2.5rem 0 1rem;
+  padding-top: 0.5rem;
+  line-height: 1.4;
+}
+
+.story-content h3 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--color-accent-soft);
+  margin: 2rem 0 0.75rem;
+  line-height: 1.45;
+}
+
+.story-content p {
+  margin: 0 0 1.25rem;
+  color: var(--color-muted);
+}
+
+.story-content strong {
+  color: var(--color-text);
+  font-weight: 600;
+}
+
+.story-content em {
+  color: var(--color-accent-soft);
+  font-style: normal;
+}
+
+.story-content a {
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color 0.2s var(--ease);
+}
+
+.story-content a:hover {
+  color: var(--color-accent-soft);
+}
+
+.story-content ul,
+.story-content ol {
+  margin: 0 0 1.5rem;
+  padding-left: 1.35rem;
+}
+
+.story-content li {
+  margin-bottom: 0.5rem;
+}
+
+.story-content li::marker {
+  color: var(--color-accent);
+}
+
+.story-content blockquote {
+  margin: 2rem 0;
+  padding: 1.25rem 1.5rem;
+  border-left: 3px solid var(--color-accent);
+  background: linear-gradient(90deg, rgba(232, 164, 184, 0.1), transparent);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  color: var(--color-text);
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  line-height: 1.65;
+}
+
+.story-content blockquote p {
+  margin: 0;
+  color: inherit;
+}
+
+.story-content hr {
+  border: none;
+  height: 1px;
+  margin: 2.5rem 0;
+  background: linear-gradient(90deg, transparent, var(--color-line-gold), transparent);
+}
+
+.story-content img {
+  width: 100%;
+  height: auto;
+  margin: 2rem 0;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-line);
+  box-shadow: var(--shadow-card);
+}
+
+.story-content figure {
+  margin: 2rem 0;
+}
+
+.story-content figcaption {
+  margin-top: 0.65rem;
+  font-size: 0.88rem;
+  color: var(--color-muted-2);
+  text-align: center;
+}
+
+.story-content pre,
+.story-content code {
+  font-family: ui-monospace, "Cascadia Code", Consolas, monospace;
+  font-size: 0.9em;
+}
+
+.story-content code {
+  padding: 0.15em 0.45em;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 6px;
+  color: var(--color-lilac-soft);
+}
+
+.story-content pre {
+  overflow-x: auto;
+  margin: 1.5rem 0;
+  padding: 1rem 1.25rem;
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-sm);
+}
+
+.story-content table {
+  width: 100%;
+  margin: 1.5rem 0;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.story-content th,
+.story-content td {
+  padding: 0.65rem 0.85rem;
+  border: 1px solid var(--color-line);
+  text-align: left;
+}
+
+.story-content th {
+  background: var(--color-bg-card);
+  color: var(--color-text);
+}
+
+.story-callout {
+  margin: 2rem 0;
+  padding: 1.25rem 1.35rem;
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-line-lilac);
+  border-radius: var(--radius-md);
+}
+
+.story-callout strong {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: var(--color-lilac-soft);
+}
+
+.story-end {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--color-line);
+}
+
+.story-end .btn {
+  margin-top: 0.5rem;
+}
+
+/* Hub listing */
+.story-hub-intro {
+  margin-bottom: 2.5rem;
+}
+
+.story-grid {
+  display: grid;
+  gap: 1.25rem;
+}
+
+@media (min-width: 640px) {
+  .story-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 960px) {
+  .story-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.story-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.35rem 1.5rem;
+  background: var(--gradient-surface);
+  background-color: var(--color-bg-card);
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-md);
+  transition: border-color 0.25s var(--ease), box-shadow 0.25s var(--ease), transform 0.25s var(--ease);
+}
+
+.story-card:hover {
+  border-color: var(--color-line-gold);
+  box-shadow: var(--shadow-card);
+  transform: translateY(-2px);
+}
+
+.story-card__date {
+  font-size: 0.8rem;
+  color: var(--color-muted-2);
+  margin-bottom: 0.5rem;
+}
+
+.story-card__title {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--color-text);
+  margin: 0 0 0.65rem;
+  line-height: 1.4;
+}
+
+.story-card__excerpt {
+  font-size: 0.92rem;
+  line-height: 1.65;
+  color: var(--color-muted);
+  margin: 0 0 1rem;
+  flex-grow: 1;
+}
+
+.story-card__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.story-card__tags .story-tag {
+  font-size: 0.72rem;
+  padding: 0.25rem 0.6rem;
+}
+
+.story-empty {
+  padding: 2.5rem;
+  text-align: center;
+  color: var(--color-muted-2);
+  border: 1px dashed var(--color-line);
+  border-radius: var(--radius-md);
+}
+
+@media (max-width: 767px) {
+  .story-content {
+    font-size: 1rem;
+  }
+
+  .story-content h2 {
+    font-size: 1.3rem;
+  }
+}
