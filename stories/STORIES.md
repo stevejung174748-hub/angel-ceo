@@ -46,11 +46,23 @@ assets/css/
 </div>
 ```
 
-## URL 예시
+## 콘텐츠 레지스트리
+
+| # | 슬러그 | 타겟 키워드 | 앵글 | 백링크 |
+|---|--------|------------|------|--------|
+| 0 | `example-story` | 제주 룸싸롱 첫 방문 | 경험 서사형 (템플릿) | 내부 링크 |
+| 1 | `haeundae-room-salon-mood-types` | 해운대 룸싸롱 분위기 | 비교형 — 분위기 타입 3가지 비교 | hd-login.co.kr |
+| 2 | `haeundae-goguryeo-faq` | 해운대 고구려 | FAQ 모음형 — 처음 검색 시 자주 묻는 질문 10가지 | hd-goguryeo.com |
+| 3 | `haeundae-hoppa-night-course` | 해운대 호빠 여성 코스 | 동선 코스형 — 식사→바→호빠→귀가 타임라인 | busanhoppa.kr |
+
+## URL 목록
 
 | 슬러그 | URL |
 |--------|-----|
 | `example-story` | https://angel-ceo.pages.dev/stories/example-story/ |
+| `haeundae-room-salon-mood-types` | https://angel-ceo.pages.dev/stories/haeundae-room-salon-mood-types/ |
+| `haeundae-goguryeo-faq` | https://angel-ceo.pages.dev/stories/haeundae-goguryeo-faq/ |
+| `haeundae-hoppa-night-course` | https://angel-ceo.pages.dev/stories/haeundae-hoppa-night-course/ |
 | 목록 | https://angel-ceo.pages.dev/stories/ |
 
 ## 에이전트에게 요청할 때
