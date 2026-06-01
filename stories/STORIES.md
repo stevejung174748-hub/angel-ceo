@@ -54,6 +54,8 @@ assets/css/
 | 1 | `haeundae-room-salon-mood-types` | 해운대 룸싸롱 분위기 | 비교형 — 분위기 타입 3가지 비교 | hd-login.co.kr |
 | 2 | `haeundae-goguryeo-faq` | 해운대 고구려 | FAQ 모음형 — 처음 검색 시 자주 묻는 질문 10가지 | hd-goguryeo.com |
 | 3 | `haeundae-hoppa-night-course` | 해운대 호빠 여성 코스 | 동선 코스형 — 식사→바→호빠→귀가 타임라인 | busanhoppa.kr |
+| 4 | `jeju-nightlife-second-party-checklist` | 제주도 유흥 | 2차 의사결정 5단계 체크리스트 | jejuroom.io.kr |
+| 5 | `jeju-room-salon-peak-season-inquiry` | 제주도 룸싸롱 | 성수기·연말 상담 실수 7가지 | jeju-room.com |
 
 ## URL 목록
 
@@ -63,6 +65,8 @@ assets/css/
 | `haeundae-room-salon-mood-types` | https://angel-ceo.pages.dev/stories/haeundae-room-salon-mood-types/ |
 | `haeundae-goguryeo-faq` | https://angel-ceo.pages.dev/stories/haeundae-goguryeo-faq/ |
 | `haeundae-hoppa-night-course` | https://angel-ceo.pages.dev/stories/haeundae-hoppa-night-course/ |
+| `jeju-nightlife-second-party-checklist` | https://angel-ceo.pages.dev/stories/jeju-nightlife-second-party-checklist/ |
+| `jeju-room-salon-peak-season-inquiry` | https://angel-ceo.pages.dev/stories/jeju-room-salon-peak-season-inquiry/ |
 | 목록 | https://angel-ceo.pages.dev/stories/ |
 
 ## 에이전트에게 요청할 때
